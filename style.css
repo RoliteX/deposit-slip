@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 500px;
+    height: 665px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -240px;
+    margin-top: -330px;
+    border-radius: 5px;
+    border: 3px solid #EAE9E9;
+}
+
+.small-text{
+    position: relative;
+    font-size: 14px;
+    top: 83px;
+    left: 10px;
+    color: #5D5D5D;
+}
+
+.text{
+    position: relative;
+    left: 75%;
+    top: -20px;
+    font-weight: bold;
+    font-size: 26px;
+    color: #7F7F7F;
+}
+
+.text-2{
+    position: relative;
+    font-size: 30px;
+    top: 60px;
+    left: 10px;
+    font-weight: bold;
+}
+
+.container .process{
+    padding: 5px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.process td{
+    position: relative;
+    top: 70px;
+    padding: 13px;
+    font-size: 15px;
+}
+
+.process .process-clr{
+    background-color: #DCF2FF;
+}
+
+.container .h-title{
+    left: 10px;
+    position: relative;
+    top: 110px;
+    color: #5D5D5D;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container .desc{
+    left: 10px;
+    position: relative;
+    color: #9A9A9A;
+    top: 120px;
+    width: 400px;
+    font-size: 12px;
+}
+
+.td-width{
+    width: 60%;
+}
+
+.logo {
+    position: absolute;
+}
+
+.logo .logo-img{
+    width: 60px;
+    border-radius: 6px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
